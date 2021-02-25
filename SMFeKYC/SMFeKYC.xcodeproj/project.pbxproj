@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		784AAEE525E80E160093E440 /* SMFeKYC.h in Headers */ = {isa = PBXBuildFile; fileRef = 784AAEE325E80E160093E440 /* SMFeKYC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		784AAEED25E80E960093E440 /* SMFeKYCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784AAEEC25E80E960093E440 /* SMFeKYCViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		784AAEE025E80E160093E440 /* SMFeKYC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SMFeKYC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		784AAEE325E80E160093E440 /* SMFeKYC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMFeKYC.h; sourceTree = "<group>"; };
 		784AAEE425E80E160093E440 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		784AAEEC25E80E960093E440 /* SMFeKYCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMFeKYCViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +50,7 @@
 			children = (
 				784AAEE325E80E160093E440 /* SMFeKYC.h */,
 				784AAEE425E80E160093E440 /* Info.plist */,
+				784AAEEC25E80E960093E440 /* SMFeKYCViewController.swift */,
 			);
 			path = SMFeKYC;
 			sourceTree = "<group>";
@@ -94,6 +97,7 @@
 				TargetAttributes = {
 					784AAEDF25E80E160093E440 = {
 						CreatedOnToolsVersion = 12.2;
+						LastSwiftMigration = 1220;
 					};
 				};
 			};
@@ -130,6 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				784AAEED25E80E960093E440 /* SMFeKYCViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +266,7 @@
 		784AAEE925E80E160093E440 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 325NVL963D;
@@ -277,6 +283,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.smf.SMFeKYC;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -285,6 +293,7 @@
 		784AAEEA25E80E160093E440 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 325NVL963D;
@@ -301,6 +310,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.smf.SMFeKYC;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
