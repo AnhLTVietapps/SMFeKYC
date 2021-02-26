@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.homepage = 'https://github.com/AnhLTVietapps'
   s.source = { :git => 'https://github.com/AnhLTVietapps/SMFeKYC.git', :branch => "main" }
   s.dependency 'Alamofire',  '~> 5.2'
-  s.dependency 'SwiftTryCatch', '~> 1.0.0'
+  s.dependency 'SwiftTryCatch'
   s.dependency 'JumioMobileSDK/Netverify', '~>3.8.0'
   s.dependency 'JumioMobileSDK/NetverifyBase', '~>3.8.0'
   s.dependency 'JumioMobileSDK/NetverifyNFC', '~>3.8.0'
