@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.summary = 'Your frameworks'
   s.authors = 'AnhLTVietapps'
   s.homepage = 'https://github.com/AnhLTVietapps'
-  s.source = { :git => 'https://github.com/AnhLTVietapps/SMFeKYC.git', :branch => "main" }
+  s.source = { :http => "https://github.com/AnhLTVietapps/SMFeKYC/SMFeKYC.xcframework.zip" }
   s.dependency 'Alamofire',  '~> 5.4'
   s.dependency 'SwiftTryCatch'
   s.dependency 'JumioMobileSDK', '3.8.0'
