@@ -9,12 +9,12 @@ Pod::Spec.new do |s|
   s.source = { :git => 'https://github.com/AnhLTVietapps/SMFeKYC.git', :branch => "main" }
   s.dependency 'Alamofire',  '~> 5.2'
   s.dependency 'SwiftTryCatch'
-  s.dependency 'JumioMobileSDK/Netverify', '~>3.8.0'
-  s.dependency 'JumioMobileSDK/NetverifyBase', '~>3.8.0'
-  s.dependency 'JumioMobileSDK/NetverifyNFC', '~>3.8.0'
-  s.dependency 'JumioMobileSDK/NetverifyBarcode', '~>3.8.0'
-  s.dependency 'JumioMobileSDK/NetverifyFace+iProov', '~>3.8.0'
-  s.dependency 'JumioMobileSDK/NetverifyFace+Zoom', '~>3.8.0' 
+  s.dependency 'JumioMobileSDK', '~>3.8.0'
+  # s.dependency 'JumioMobileSDK/NetverifyBase', '~>3.8.0'
+  # s.dependency 'JumioMobileSDK/NetverifyNFC', '~>3.8.0'
+  # s.dependency 'JumioMobileSDK/NetverifyBarcode', '~>3.8.0'
+  # s.dependency 'JumioMobileSDK/NetverifyFace+iProov', '~>3.8.0'
+  # s.dependency 'JumioMobileSDK/NetverifyFace+Zoom', '~>3.8.0' 
 
   s.ios.deployment_target = '12'
 
