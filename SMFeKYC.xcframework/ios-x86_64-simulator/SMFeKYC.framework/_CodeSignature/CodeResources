@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/SMFeKYC.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		QuyFjEuSH2bI+AwHBUAK010adRM=
+		a+XAXuZFakTLN2OFQorHtUajy1U=
 		</data>
 		<key>Modules/SMFeKYC.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<data>
-		QuyFjEuSH2bI+AwHBUAK010adRM=
+		a+XAXuZFakTLN2OFQorHtUajy1U=
 		</data>
 		<key>Modules/SMFeKYC.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/SMFeKYC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		gZxViGp3r638IIk4kDQQa4bAyVQ=
+		QXk0zmLPiwvGvqgqVvaoph+vdjQ=
 		</data>
 		<key>Modules/SMFeKYC.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -38,12 +38,30 @@
 		</data>
 		<key>Modules/SMFeKYC.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		gZxViGp3r638IIk4kDQQa4bAyVQ=
+		QXk0zmLPiwvGvqgqVvaoph+vdjQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		xlE+2Z4OfFoYcLrWEOUTVwTtR9c=
 		</data>
+		<key>en.lproj/Localizable-Netverify.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			geoISadQMd51h25yuDfNLp/+Yc4=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>vi.lproj/Localizable-Netverify.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			+f5B+0e9jzNZ3TbaoleQOvRLILk=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -65,14 +83,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LKsIAz7exfOnHCZ8SZVLhhhsMpLMs/VDBUVOy9ivcVQ=
+			wB3sReIhR6xzEeEoSDl7ccfpAfA3TiLI205pElruRlk=
 			</data>
 		</dict>
 		<key>Modules/SMFeKYC.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LKsIAz7exfOnHCZ8SZVLhhhsMpLMs/VDBUVOy9ivcVQ=
+			wB3sReIhR6xzEeEoSDl7ccfpAfA3TiLI205pElruRlk=
 			</data>
 		</dict>
 		<key>Modules/SMFeKYC.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -86,7 +104,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vGPA1y2BQixsNqCpsjVfYGmDLcTn6L/Q9xpSd994zdM=
+			PpcSK1B71EolPQGDhaqFDRawHce4qK3o/Zgn85QMkq8=
 			</data>
 		</dict>
 		<key>Modules/SMFeKYC.swiftmodule/x86_64.swiftdoc</key>
@@ -100,7 +118,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vGPA1y2BQixsNqCpsjVfYGmDLcTn6L/Q9xpSd994zdM=
+			PpcSK1B71EolPQGDhaqFDRawHce4qK3o/Zgn85QMkq8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -109,6 +127,24 @@
 			<data>
 			/hBb6EE6JxgW4yKqHy6WVR6GCelC387KKVSuwOcrUv0=
 			</data>
+		</dict>
+		<key>en.lproj/Localizable-Netverify.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Bas7pffovw7BSDaS5C2kXMqUZmNt270XnOj1WBZN4jU=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>vi.lproj/Localizable-Netverify.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			HBl62hCIak9EucyiHRyJB/DVGpKSaOyx3/9LfM38WHI=
+			</data>
+			<key>optional</key>
+			<true/>
 		</dict>
 	</dict>
 	<key>rules</key>
