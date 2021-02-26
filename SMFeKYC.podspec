@@ -21,4 +21,4 @@ Pod::Spec.new SMFeKYC do |s|
   s.source_files = 'SMFeKYC/*.swift'
 
 
-endSMFeKYC
+end
