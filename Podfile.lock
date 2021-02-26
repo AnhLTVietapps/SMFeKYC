@@ -1,0 +1,47 @@
+PODS:
+  - Alamofire (5.4.1)
+  - iProov (8.1.1):
+    - Socket.IO-Client-Swift (~> 15.2)
+  - JumioMobileSDK/Netverify (3.8.0):
+    - iProov (= 8.1.1)
+  - JumioMobileSDK/NetverifyBarcode (3.8.0)
+  - JumioMobileSDK/NetverifyBase (3.8.0)
+  - "JumioMobileSDK/NetverifyFace+iProov (3.8.0)":
+    - iProov (= 8.1.1)
+  - "JumioMobileSDK/NetverifyFace+Zoom (3.8.0)"
+  - JumioMobileSDK/NetverifyNFC (3.8.0)
+  - Socket.IO-Client-Swift (15.2.0):
+    - Starscream (~> 3.1)
+  - Starscream (3.1.1)
+  - SwiftTryCatch (0.0.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.2)
+  - JumioMobileSDK/Netverify (~> 3.8.0)
+  - JumioMobileSDK/NetverifyBarcode (~> 3.8.0)
+  - JumioMobileSDK/NetverifyBase (~> 3.8.0)
+  - "JumioMobileSDK/NetverifyFace+iProov (~> 3.8.0)"
+  - "JumioMobileSDK/NetverifyFace+Zoom (~> 3.8.0)"
+  - JumioMobileSDK/NetverifyNFC (~> 3.8.0)
+  - SwiftTryCatch (~> 0.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - iProov
+    - JumioMobileSDK
+    - Socket.IO-Client-Swift
+    - Starscream
+    - SwiftTryCatch
+
+SPEC CHECKSUMS:
+  Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
+  iProov: 5cefb12ff4890c260f190d6e2426737ab389eb79
+  JumioMobileSDK: c686a7afd079218163810d29031adac0b5e602b1
+  Socket.IO-Client-Swift: 1e3e3a1f09f3312a167f0d781eb2f383d477357c
+  Starscream: 4bb2f9942274833f7b4d296a55504dcfc7edb7b0
+  SwiftTryCatch: fb6d2b34abe48efd69578dac919293a44f95b481
+
+PODFILE CHECKSUM: aa0634cacb127b3848cdd3152bcd51b89103886d
+
+COCOAPODS: 1.10.1
