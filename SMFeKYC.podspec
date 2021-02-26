@@ -5,6 +5,7 @@ Pod::Spec.new do |s|
   s.license = 'MIT'
   s.summary = 'Your frameworks'
   s.authors = 'AnhLTVietapps'
+  s.homepage = 'https://github.com/AnhLTVietapps'
   s.source = { :git => 'https://github.com/AnhLTVietapps/SMFeKYC.git', :branch => "main" }
   s.dependency 'Alamofire',  '~> 5.2'
   s.dependency 'SwiftTryCatch', '~> 1.0.0'
