@@ -1,4 +1,5 @@
-Pod::Spec.new SMFeKYC do |s|
+Pod::Spec.new do |s|
+
   s.name = 'SMFeKYC'
   s.version = '1.0.0'
   s.license = 'MIT'
