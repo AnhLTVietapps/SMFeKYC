@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
 
   s.swift_versions = ['5.3']
 
-  s.vendored_frameworks = ['SMFeKYC.framework']
+  s.vendored_frameworks = ['SMFeKYC.xcframework']
 
 
 end
