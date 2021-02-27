@@ -9,13 +9,13 @@ Pod::Spec.new do |s|
   s.source = { :git => "https://github.com/AnhLTVietapps/SMFeKYC.git", :branch => "main" }
   s.dependency 'Alamofire',  '5.4.1'
   s.dependency 'SwiftTryCatch'
-  s.dependency 'JumioMobileSDK', '3.8.0'
+  s.dependency 'JumioMobileSDK', '3.7.2'
 
-  s.ios.deployment_target = '12'
+  s.ios.deployment_target = '11'
 
   s.swift_versions = ['5.3']
 
-  s.vendored_frameworks = ['SMFeKYC.xcframework']
+  s.vendored_frameworks = ['SMFeKYC.framework']
 
 
 end
