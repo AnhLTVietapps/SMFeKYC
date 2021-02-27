@@ -2,8 +2,8 @@ BCSymbolMap Version: 2.0
 Apple clang version 12.0.0 (clang-1200.0.32.27)
 /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk
 iPhoneOS14.2.sdk
-/var/root/Library/Developer/Xcode/DerivedData/SMFeKYC-biawtyvxaucdwwcmdvxcgpxgcoud/Build/Intermediates.noindex/ArchiveIntermediates/SMFeKYC/IntermediateBuildFilesPath/SMFeKYC.build/Release-iphoneos/SMFeKYC.build/DerivedSources/SMFeKYC_vers.c
-/Volumes/My Data/SMFeKYC
+/var/root/Library/Developer/Xcode/DerivedData/SMFeKYC-azmvooqmgtfmjubsxhkmuyfuqped/Build/Intermediates.noindex/ArchiveIntermediates/SMFeKYC/IntermediateBuildFilesPath/SMFeKYC.build/Release-iphoneos/SMFeKYC.build/DerivedSources/SMFeKYC_vers.c
+/Users/anhle/Desktop/xxxx/SMFeKYC
 _$s7SMFeKYC0A17KYCViewControllerCSbSgIetMAgYl_TC
 _$s7SMFeKYC0A17KYCViewControllerC18enableVerificationSbSgvsTm
 _$s7SMFeKYC0A17KYCViewControllerCSSSgIetMAgYl_TC
@@ -208,7 +208,7 @@ _objc_classes
 Apple clang version 12.0.0 (clang-1200.0.32.8)
 <swift-imported-modules>
 Apple Swift version 5.3.1 (swiftlang-1200.0.41 clang-1200.0.32.8)
-/Volumes/My Data/SMFeKYC/SMFeKYC/SMFeKYCViewController.swift
+/Users/anhle/Desktop/xxxx/SMFeKYC/SMFeKYC/SMFeKYCViewController.swift
 $s7SMFeKYC0A17KYCViewControllerC14viewWillAppearyySbFySbcfU0_yycfU_TA
 <compiler-generated>
 $s7SMFeKYC0A17KYCViewControllerC14viewWillAppearyySbFySbcfU0_yycfU_
@@ -239,12 +239,6 @@ appendLiteral
 appendInterpolation
 $sSSs20TextOutputStreamablessAAP5write2toyqd__z_ts0aB6StreamRd__lFTWs26DefaultStringInterpolationV_Ti5
 sMFeKYCDelegate.get
-internalId.get
-$sSa13_adoptStorage_5countSayxG_SpyxGts016_ContiguousArrayB0CyxGn_SitFZSS_SSSgt_Tg5
-$sSa13_adoptStorage_5countSayxG_SpyxGts016_ContiguousArrayB0CyxGn_SitFZSS_SSSgt_Tg5Tf4nnd_n
-$ss22_ContiguousArrayBufferV19firstElementAddressSpyxGvgSS_SSSgt_Tg5
-$ss22_ContiguousArrayBufferV5count7storageAByxGSi_s01_aB7StorageCyxGtcfCSS_SSSgt_Tg5
-$ss22_ContiguousArrayBufferV18_initStorageHeader5count8capacityySi_SitFSS_SSSgt_Tg5
 responseJSON
 request
 Swift runtime failure: Unexpectedly found nil while unwrapping an Optional value
@@ -254,6 +248,13 @@ $sSp12deinitialize5countSvSi_tFSS_SSSgt_Tg5
 $ss23_ContiguousArrayStorageC15_elementPointerSpyxGvgSS_SSSgt_Tg5
 apiToken.get
 userReference.get
+$sSa13_adoptStorage_5countSayxG_SpyxGts016_ContiguousArrayB0CyxGn_SitFZSS_SSSgt_Tg5
+$sSa13_adoptStorage_5countSayxG_SpyxGts016_ContiguousArrayB0CyxGn_SitFZSS_SSSgt_Tg5Tf4nnd_n
+internalId.get
+$ss22_ContiguousArrayBufferV19firstElementAddressSpyxGvgSS_SSSgt_Tg5
+$ss22_ContiguousArrayBufferV5count7storageAByxGSi_s01_aB7StorageCyxGtcfCSS_SSSgt_Tg5
+$ss22_ContiguousArrayBufferV18_initStorageHeader5count8capacityySi_SitFSS_SSSgt_Tg5
++
 apiDomain.get
 $sSa13_adoptStorage_5countSayxG_SpyxGts016_ContiguousArrayB0CyxGn_SitFZyp_Tg5Tf4nnd_n
 $sSa13_adoptStorage_5countSayxG_SpyxGts016_ContiguousArrayB0CyxGn_SitFZs7CVarArg_p_Tg5
@@ -353,8 +354,8 @@ enableVerification.modify
 $s7SMFeKYC0A17KYCViewControllerC18enableVerificationSbSgvpfi
 __OBJC_METACLASS_RO_$_PodsDummy_Pods_SMFeKYC
 __OBJC_CLASS_RO_$_PodsDummy_Pods_SMFeKYC
-/Volumes/My Data/SMFeKYC/Pods/Target Support Files/Pods-SMFeKYC/Pods-SMFeKYC-dummy.m
-/Volumes/My Data/SMFeKYC/Pods
+/Users/anhle/Desktop/xxxx/SMFeKYC/Pods/Target Support Files/Pods-SMFeKYC/Pods-SMFeKYC-dummy.m
+/Users/anhle/Desktop/xxxx/SMFeKYC/Pods
 __ZN5swift39swift51override_conformsToSwiftProtocolEPKNS_14TargetMetadataINS_9InProcessEEEPKNS_24TargetProtocolDescriptorIS1_EEN4llvm9StringRefEPFPKNS_35TargetProtocolConformanceDescriptorIS1_EES4_S8_SA_E
 _Swift51Overrides
 /AppleInternal/BuildRoot/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang --driver-mode=g++ -D CMARK_STATIC_DEFINE -D GTEST_HAS_RTTI=0 -D LLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING=1 -D __STDC_CONSTANT_MACROS -D __STDC_FORMAT_MACROS -D __STDC_LIMIT_MACROS -I stdlib/toolchain/Compatibility51 -I /AppleInternal/BuildRoot/Library/Caches/com.apple.xbs/Sources/swiftlang/swiftlang-1200.0.41/swift/stdlib/toolchain/Compatibility51 -I include -I /AppleInternal/BuildRoot/Library/Caches/com.apple.xbs/Sources/swiftlang/swiftlang-1200.0.41/swift/include -I /AppleInternal/BuildRoot/Library/Caches/com.apple.xbs/Sources/swiftlang/swiftlang-1200.0.41/llvm-project/llvm/include -I /AppleInternal/BuildRoot/Library/Caches/com.apple.xbs/Binaries/swiftlang/install/TempContent/Objects/BNI_assert_lightweight/llvm-macosx-x86_64/include -I /AppleInternal/BuildRoot/Library/Caches/com.apple.xbs/Sources/swiftlang/swiftlang-1200.0.41/llvm-project/clang/include -I /AppleInternal/BuildRoot/Library/Caches/com.apple.xbs/Binaries/swiftlang/install/TempContent/Objects/BNI_assert_lightweight/llvm-macosx-x86_64/tools/clang/include -I /AppleInternal/BuildRoot/Library/Caches/com.apple.xbs/Sources/swiftlang/swiftlang-1200.0.41/cmark/src -I /AppleInternal/BuildRoot/Library/Caches/com.apple.xbs/Binaries/swiftlang/install/TempContent/Objects/BNI_assert_lightweight/cmark-macosx-x86_64/src -Wno-unknown-warning-option -Werror=unguarded-availability-new -fno-stack-protector -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -Wimplicit-fallthrough -Wcovered-switch-default -Wno-class-memaccess -Wno-noexcept-type -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wstring-conversion -fdiagnostics-color -Werror=switch -Wdocumentation -Wimplicit-fallthrough -Wunreachable-code -Woverloaded-virtual -D OBJC_OLD_DISPATCH_PROTOTYPES=0 -O2 -D NDEBUG -isysroot /AppleInternal/BuildRoot/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -fno-exceptions -funwind-tables -fno-rtti -Werror=gnu -Wall -Wglobal-constructors -Wexit-time-destructors -fvisibility=hidden -D SWIFT_COMPATIBILITY_LIBRARY=1 -D SWIFT_TARGET_LIBRARY_NAME=swiftCompatibility51 -fembed-bitcode=all --target=arm64-apple-ios7.0 -isysroot /AppleInternal/BuildRoot/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk -arch arm64 -F/AppleInternal/BuildRoot/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/../../../Developer/Library/Frameworks -F/AppleInternal/BuildRoot/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/../../../Developer/AppleInternal/Library/Frameworks -miphoneos-version-min=7.0 -O2 -g -D NDEBUG -std=c++14 -MD -MT stdlib/toolchain/Compatibility51/CMakeFiles/swiftCompatibility51-iphoneos-arm64.dir/Overrides.cpp.o -MF stdlib/toolchain/Compatibility51/CMakeFiles/swiftCompatibility51-iphoneos-arm64.dir/Overrides.cpp.o.d -o stdlib/toolchain/Compatibility51/CMakeFiles/swiftCompatibility51-iphoneos-arm64.dir/Overrides.cpp.o -c /AppleInternal/BuildRoot/Library/Caches/com.apple.xbs/Sources/swiftlang/swiftlang-1200.0.41/swift/stdlib/toolchain/Compatibility51/Overrides.cpp -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-enum-enum-conversion -Wno-enum-float-conversion -mlinker-version=609.6 -stdlib=libc++
