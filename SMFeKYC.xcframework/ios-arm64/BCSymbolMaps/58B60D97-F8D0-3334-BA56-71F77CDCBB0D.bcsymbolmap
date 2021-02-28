@@ -124,6 +124,7 @@ _symbolic $s7SMFeKYC0A25KYCViewControllerDelegateP
 _$s7SMFeKYC0A25KYCViewControllerDelegate_pMF
 _$s7SMFeKYCMXM
 _symbolic x
+_$s7SMFeKYC0A17KYCViewControllerC4uuidSSSgvpWvd
 __PROTOCOL_NetverifyViewControllerDelegate
 l_OBJC_LABEL_PROTOCOL_$_NetverifyViewControllerDelegate
 l_OBJC_PROTOCOL_REFERENCE_$_NetverifyViewControllerDelegate
@@ -210,6 +211,9 @@ __PROTOCOL_INSTANCE_METHODS_OPT_NSObject
 __PROTOCOL_PROPERTIES_NSObject
 __PROTOCOL_METHOD_TYPES_NSObject
 _objc_classes
+_$s7SMFeKYC0A17KYCViewControllerC4uuidSSSgvgTq
+_$s7SMFeKYC0A17KYCViewControllerC4uuidSSSgvsTq
+_$s7SMFeKYC0A17KYCViewControllerC4uuidSSSgvMTq
 _$s7SMFeKYC0A17KYCViewControllerC12sendUserInfo13scanReferenceySSSg_tFTq
 _$s7SMFeKYC0A17KYCViewControllerC014startNetverifyD0yyFTq
 _$s7SMFeKYC0A17KYCViewControllerC9showAlert9withTitle7messageySSSg_AGtFTq
@@ -293,10 +297,12 @@ $sSSSHsSH4hash4intoys6HasherVz_tFTW
 deinit
 startNetverify
 createNetverifyConfiguration
+uuid.get
 enableIdentityVerification.get
 enableVerification.get
 apiSecret.get
 apiToken.get
+uuid.set
 $sSo13UIAlertActionCIegg_ABIeyBy_TR
 showAlert
 $s7SMFeKYC0A17KYCViewControllerC014startNetverifyD0yyFyycfU1_
@@ -337,6 +343,7 @@ $sIeg_IeyB_TR
 viewDidLoad
 $s7SMFeKYC0A17KYCViewControllerCMa
 Swift runtime failure: Unexpectedly found nil while implicitly unwrapping an Optional value
+$s7SMFeKYC0A17KYCViewControllerC4uuidSSSgvpfi
 sMFeKYCDelegate.modify
 sMFeKYCDelegate.set
 $s7SMFeKYC0A17KYCViewControllerC15sMFeKYCDelegateAA0acD8Delegate_pSgvpfi
