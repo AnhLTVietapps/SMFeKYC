@@ -1,0 +1,38 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)
+// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name SMFeKYC
+import Alamofire
+import Foundation
+import Netverify
+import Photos
+@_exported import SMFeKYC
+import Swift
+import SwiftTryCatch
+import UIKit
+public protocol SMFeKYCViewControllerDelegate : AnyObject {
+  func sMFeKYCViewController(_ sMFeKYCViewController: SMFeKYC.SMFeKYCViewController, didInitTransactionWithInternalId: Swift.String?)
+  func sMFeKYCViewController(_ sMFeKYCViewController: SMFeKYC.SMFeKYCViewController, didFinishInitializingWithError: Swift.String?)
+  func sMFeKYCViewController(_ sMFeKYCViewController: SMFeKYC.SMFeKYCViewController, didFinishWithScanReference: Swift.String?)
+  func sMFeKYCViewController(_ sMFeKYCViewController: SMFeKYC.SMFeKYCViewController, didCancelWithScanError: Swift.String?, scanReference: Swift.String?)
+}
+@objc @_inheritsConvenienceInitializers public class SMFeKYCViewController : UIKit.UIViewController, Netverify.NetverifyViewControllerDelegate {
+  public var apiToken: Swift.String!
+  public var apiSecret: Swift.String!
+  public var customizedRefID: Swift.String?
+  public var authorizationToken: Swift.String!
+  public var parentVC: UIKit.UIViewController!
+  public var sMFeKYCDelegate: SMFeKYC.SMFeKYCViewControllerDelegate?
+  @objc override dynamic public func viewDidLoad()
+  @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+  @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
+  public func startNetverifyController()
+  public func showAlert(withTitle title: Swift.String?, message: Swift.String?)
+  public func createNetverifyConfiguration(internalID: Swift.String?) -> Netverify.NetverifyConfiguration
+  public func startNetverify()
+  @objc public func netverifyViewController(_ netverifyViewController: Netverify.NetverifyViewController, didFinishInitializingWithError error: Netverify.NetverifyError?)
+  @objc public func netverifyViewController(_ netverifyViewController: Netverify.NetverifyViewController, didFinishWith documentData: Netverify.NetverifyDocumentData, scanReference: Swift.String)
+  @objc public func netverifyViewController(_ netverifyViewController: Netverify.NetverifyViewController, didCancelWithError error: Netverify.NetverifyError?, scanReference: Swift.String?)
+  @objc deinit
+  @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @objc required dynamic public init?(coder: Foundation.NSCoder)
+}
