@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.name = 'SMFeKYC'
   s.version = '1.0.0'
   s.license = 'MIT'
-  s.summary = 'Your frameworks'
+  s.summary = 'SMFeKYC'
   s.authors = 'AnhLTVietapps'
   s.homepage = 'https://github.com/AnhLTVietapps'
   s.source = { :git => "https://github.com/AnhLTVietapps/SMFeKYC.git", :branch => "main" }
@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.dependency 'SwiftTryCatch'
   s.dependency 'JumioMobileSDK', '3.7.2'
 
-  s.ios.deployment_target = '11'
+  s.ios.deployment_target = '10'
 
   s.swift_versions = ['5.3']
 
